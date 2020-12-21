@@ -25,7 +25,6 @@ Template fichier `settings.json` :
         }
     }
 } 
-}
 ```
 
 ### Gestion de commandes et d'options pour executer le programme.
@@ -41,6 +40,7 @@ Liste des options:
 -h, --help      => Description du programme.
 -u, --url       => Indiquer l'url d'une playlist.
 -c, --cmp       => Indiquer le format de compression des fichiers audios. Ex: zip, tar, gz, etc..
+-d, --dest      => Indiquer le dossier de sauvegarde des fichiers audios
 ```
 
 ### Mise en place de cron task.

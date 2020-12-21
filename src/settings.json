@@ -1,0 +1,14 @@
+{
+  "playlists": {
+      "1": {
+          "name": "https...",
+          "folder": "/folder",
+          "compression": "zip"
+      },
+      "2": {
+          "name": "https...",
+          "folder": "/folder",
+          "compression": "zip"
+      }
+  }
+} 
