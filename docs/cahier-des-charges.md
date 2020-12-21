@@ -38,13 +38,13 @@ python3 syncytb.py [OPTION]...
 Liste des options:
 
 ```
---help      => Description du programme.
---url       => Indiquer l'url d'une playlist.
---ext       => Indiquer le format de compression des fichiers audios. Ex: zip, tar, gz, etc..
- 
-
+-h, --help      => Description du programme.
+-u, --url       => Indiquer l'url d'une playlist.
+-c, --cmp       => Indiquer le format de compression des fichiers audios. Ex: zip, tar, gz, etc..
 ```
 
 ### Mise en place de cron task.
+
 ### Mise à jour des données local grace à une synchronisation de la/les playlist(s)
+
 
