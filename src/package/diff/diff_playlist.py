@@ -1,11 +1,9 @@
-import numpy as np
-
 def diff_playlist(filename, new: iter):
     """ 
     Fonction qui compare le fichier filename avec le tableau new:
     Elle permet de connaître les nouvelles musiques de la playlist et les musiques à supprimer.
-    Elle return : un tableau Add contenant les musiques à ajouter à la playlist.
-                : un tableau Delete contenant les musiques à supprimer de la playlist.
+    Elle retourne 	: un tableau Add contenant les musiques à ajouter à la playlist.
+                	: un tableau Delete contenant les musiques à supprimer de la playlist.
     """
     # convert file
     tabDelete = []
