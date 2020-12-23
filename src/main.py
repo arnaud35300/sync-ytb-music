@@ -22,6 +22,9 @@ def main():
     url = 'https://www.youtube.com/watch?v=SlPhMPnQ58k&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10'
     url = clean_url(url)
  
+
+    #for x in range(len(data.playlists)):
+    #   print(data[x].playlists.name)
     """
     r = requests.get('https://www.googleapis.com/youtube/v3/playlists/', params = {
         'part': 'snippet',
